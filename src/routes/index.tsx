@@ -129,9 +129,13 @@ function Index() {
           className="mt-10 flex animate-rise flex-col items-center gap-3 sm:flex-row sm:gap-4"
           style={{ animationDelay: "520ms" }}
         >
-          <ContactLink href="mailto:#" icon={Mail} label="email" />
-          <ContactLink href="#" icon={Send} label="telegram" />
-          <ContactLink href="#" icon={MessageCircle} label="max" />
+          <ContactLink href="mailto:ivamarmaris@yandex.ru" icon={Mail} label="email" />
+          <ContactLink href="https://t.me/ivamarmaris" icon={Send} label="telegram" />
+          <ContactLink
+            href="https://max.ru/u/f9LHodD0cOJyB5413JMeNa2B2DG-qkDSptGgt9EmK6wWTooR_BPYzSImjcs"
+            icon={MessageCircle}
+            label="max"
+          />
         </div>
       </section>
 

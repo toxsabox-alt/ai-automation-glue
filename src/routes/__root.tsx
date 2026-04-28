@@ -38,6 +38,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Blue bisiness card" },
+      { property: "og:title", content: "Blue bisiness card" },
+      { name: "twitter:title", content: "Blue bisiness card" },
+      { name: "description", content: "Визитка синяя" },
+      { property: "og:description", content: "Визитка синяя" },
+      { name: "twitter:description", content: "Визитка синяя" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/28d1a019-d501-44f5-bb56-e34c36e01292" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/28d1a019-d501-44f5-bb56-e34c36e01292" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
